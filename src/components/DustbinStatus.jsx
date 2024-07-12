@@ -87,7 +87,7 @@ const DustbinStatus = ({ dustbinHeight, latestDistance, setLatestDistance }) => 
 
     return (
         <div className="container">
-            <h1>Smart Dustbin Status</h1>
+            <h1>Smart Trashbin</h1>
             {isDataOld && <div className="warning">Showing last seen data.</div>}
             <Dustbin dustbinClass={dustbinClass} fillLevel={fillLevel} />
             <Status label="Dustbin Level" value={dustbinLevel} />
