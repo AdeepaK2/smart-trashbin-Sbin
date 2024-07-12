@@ -1,0 +1,139 @@
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.warning {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.last-seen {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.status {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.dustbin {
+    width: 100px;
+    height: 150px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 5px;
+    margin: 20px auto;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.dustbin.flipped {
+    background-color: #ffcccb;
+}
+
+.dustbin.standing {
+    background-color: #8bc34a;
+}
+
+.dustbin.full {
+    background-color: #ff9800;
+}
+
+.lid {
+    width: 100%;
+    height: 20px;
+    background-color: #333;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.fill-level {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 69, 0, 0.8); /* Semi-transparent fill color */
+    transition: height 0.3s ease;
+}
+
+.settings {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.settings h2 {
+    margin-bottom: 15px;
+}
+
+.settings form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings label {
+    margin-right: 10px;
+}
+
+.settings input {
+    padding: 5px;
+    font-size: 1em;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.settings button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings button:hover {
+    background-color: #45a049;
+}
+
+
+
+.status {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
